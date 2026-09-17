@@ -45,4 +45,12 @@
         android:text="Location"
         android:textSize="18sp" />
 
+    <Button
+        android:id="@+id/bGoToSockets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZMQ Sockets"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp" />
+
 </LinearLayout>

@@ -22,5 +22,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LocationActivity::class.java)
             startActivity(intent)
         }
+        findViewById<Button>(R.id.bGoToSockets).setOnClickListener {
+            val intent = Intent(this, SocketsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
